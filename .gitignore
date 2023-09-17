@@ -1,0 +1,48 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+*.xcworkspace/
+*.xcodeproj/
+
+# macOS
+.DS_Store
+
+# SwiftUI-specific
+# Ignore the generated project files for SwiftUI
+.swiftproject/
+.xcodeproj/
+
+# Ignore the build folder and its contents
+DerivedData/
+
+# Ignore user-specific Xcode settings
+xcuserdata/
+
+# Ignore the Xcode workspace file
+*.xcworkspace/
+
+# Ignore any private SPM Package directories (optional)
+Packages/
+Package.resolved
+
+# Ignore local settings and schemes
+*.xcuserdatad/
+*.swiftpm/
+*.playground/
+
+# Ignore any generated documentation
+docs/
+
+# Ignore any logs or diagnostic files
+*.log
+*.diagnostics
+
+# Ignore macOS thumbnail files
+._*
+
+# Ignore any user-specific files or settings
+.idea/
+.vscode/
+
